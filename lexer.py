@@ -1,5 +1,5 @@
 from settings import Settings
-from token import *
+from tokens import *
 import re
 
 token_regex = {Settings.NUMBER: r'[-]?\d+',

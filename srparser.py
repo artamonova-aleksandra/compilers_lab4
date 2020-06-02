@@ -1,5 +1,5 @@
 from settings import Settings
-from token import *
+from tokens import *
 
 matrix_keys = [Settings.RPAREN, Settings.NUMBER, Settings.MUL_OP,
                Settings.PLUS_OP, Settings.REL_OP, Settings.LPAREN,
