@@ -22,9 +22,6 @@ def get_precedence(curr_token, next_token):
     next_index = matrix_keys.index(next_token.type)
 
     result = matrix[curr_index][next_index]
-    # if result not in Settings.PRECEDENCE:
-    #     raise SRParserException(result)
-
     return result
 
 
